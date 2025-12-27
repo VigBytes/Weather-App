@@ -26,19 +26,19 @@ async function findWeather(city){
     document.querySelector(".wind").innerHTML=data.wind.speed+"km/h";
     document.querySelector(".humidity").innerHTML=data.main.humidity+"%";
     if(data.weather[0].main=="Clear"){
-        weatherIcon.src="/icons/images/clear.png";
+        weatherIcon.src="icons/images/clear.png";
     }else if(data.weather[0].main=="Clouds"){
-        weatherIcon.src="/icons/images/clouds.png";
+        weatherIcon.src="icons/images/clouds.png";
     }else if(data.weather[0].main=="Drizzle"){
-        weatherIcon.src="/icons/images/drizzle.png";
+        weatherIcon.src="icons/images/drizzle.png";
     }else if(data.weather[0].main=="Mist"){
-        weatherIcon.src="/icons/images/mist.png";
+        weatherIcon.src="icons/images/mist.png";
     }else if(data.weather[0].main=="Rain"){
-        weatherIcon.src="/icons/images/rain.png";
+        weatherIcon.src="icons/images/rain.png";
     }else if(data.weather[0].main=="Snow"){
-        weatherIcon.src="/icons/images/snow.png";
+        weatherIcon.src="icons/images/snow.png";
     }else if(data.weather[0].main=="Haze"){
-        weatherIcon.src="/icons/images/haze.png";
+        weatherIcon.src="icons/images/haze.png";
     }
     document.querySelector(".weather").style.display="block";
     document.querySelector(".error").style.display="none";
