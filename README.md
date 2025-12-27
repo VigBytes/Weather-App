@@ -10,8 +10,7 @@ A simple weather application built with **HTML**, **CSS**, and **JavaScript** th
 - Real-time updates using a weather API.
 
 ## Demo
-
-You can add a live demo link here if hosted:  
+ 
 [Live Demo](https://vigbytes.github.io/Weather-App/)
 
 ## Technologies Used
